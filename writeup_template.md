@@ -68,7 +68,7 @@ Here is an exploratory visualization of the training data set. It is a line char
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
 Preprocessed the image with the following 2 steps:
-- Normalized the data and converted the data to the range of (-1,1)
+- Normalized the data and converted the data to the range of (-1,1) to simplify calculations
 - Converted the image to Gray Scale
 
 
@@ -133,6 +133,11 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image12] ![alt text][image11] ![alt text][image10] 
 ![alt text][image9] ![alt text][image13]
+
+Predictions of these images may not be straight forward due to the following reasons
+- the dimensions of these images are different than the images used for trainings
+- these are color images and will need to be converted to grey scale before the image is used for prediction
+- the number of training examples are less for some images. For e.g. pedestrians - 210 examples, wild animals - 690, slippery road - 450
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
