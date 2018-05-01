@@ -27,6 +27,11 @@ The goals / steps of this project are the following:
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image9]: .//German-Traffic-Signs/german-road-signs-animals.png "Traffic Sign - Animals"
+[image10]: .//German-Traffic-Signs/german-road-signs-pedestrians.png "Traffic Sign - Pedestrains"
+[image11]: .//German-Traffic-Signs/german-road-signs-slippery.png "Traffic Sign - Slippery Road"
+[image12]: .//German-Traffic-Signs/german-road-signs-traffic.png "Traffic Sign - Traffic Signal"
+[image13]: .//German-Traffic-Signs/germany-min-speed-sign.png "Traffic Sign - Min Speed"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -36,7 +41,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/dinesh-i/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -45,11 +50,11 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is ?
-* The size of the validation set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
+* The size of training set is 34799
+* The size of the validation set is 4410
+* The size of test set is 12630
+* The shape of a traffic sign image is 32 X 32
+* The number of unique classes/labels in the data set is 43
 
 #### 2. Include an exploratory visualization of the dataset.
 
